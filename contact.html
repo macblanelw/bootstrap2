@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Bootstrap Website Book</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body id="contact">
+
+  <nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top" role="navigation">
+    <div class="container">
+      <a href="/" class="navbar-brand"><img src="./img/eye_icon.png" alt="Watching Eye" height="100px" width="100px"></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#globalNav" aria-controls="globalNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="globalNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active mx-3">
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a href="./portfolio.html" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a href="./blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a href="./contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container mt-3">
+    <h2>Contact me...</h2>
+
+    <form action="">
+      <div class="form-group">
+        <label for="email">Your email</label>
+        <input type="email" id="email" class="form-control form-control-lg" placeholder="lance@mail.com">
+      </div>
+      <div class="form-group">
+        <label for="message">Your message</label>
+        <textarea name="message" id="message" cols="30" rows="3" class="form-control"></textarea>
+      </div>
+      <div class="form-check form-group">
+        <input type="checkbox" class="form-check-input" id="newsletter" value="">
+        <label for="newsletter" class="form-check-label">Subscribe to my newsletter</label>
+      </div>
+      <div class="form-group">
+        <input type="submit" class="btn btn-lg btn-primary" value="Send!">
+      </div>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <div class="container mt-4">
+      <span class="text-muted">&copy; 2020 Lance's Brain, LLC.
+      </span>
+    </div>
+  </footer>
+
+</body>
+
+</html>
